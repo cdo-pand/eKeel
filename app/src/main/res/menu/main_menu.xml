@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_flag_rus"
+        android:onClick="onLang"
+        android:title="@string/langRUS"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:icon="@drawable/ic_flag_eng"
+                android:onClick="onLang"
+                android:title="@string/langENG"
+                app:showAsAction="ifRoom|withText" />
+        </menu>
+    </item>
+
+<!--        <item-->
+<!--            android:icon="@drawable/ic_flag_rus"-->
+<!--            android:onClick="onLang"-->
+<!--            android:title="@string/langRUS" />-->
+<!--        <item-->
+<!--            android:icon="@drawable/ic_flag_eng"-->
+<!--            android:onClick="onLang"-->
+<!--            android:title="@string/langENG" />-->
+
+</menu>
